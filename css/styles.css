@@ -45,13 +45,11 @@ button {
 }
 
 .header-page .container {
-    justify-content: space-between;
     display: flex;
 }
 
 .nav-page {
     display: flex;
-    justify-content: space-between;
     margin-right: auto;
     align-items: center;
 }
