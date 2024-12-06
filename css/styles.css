@@ -20,12 +20,13 @@ p {
 }
 
 .container {
-    width: 1158;
-    padding-left: 15;
-    padding-right: 15;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 ul,
 ol {
@@ -42,8 +43,17 @@ button {
 /* #region Header */
 .header-page {
 }
-.nav-page {
 
+.header-page .container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-page {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    align-items: center;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -53,6 +63,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-style {
@@ -66,6 +77,9 @@ button {
 }
 
 .nav-list {
+    display: flex;
+    margin-right: auto;
+    gap: 40px
 }
 .nav-item {
 
@@ -76,9 +90,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .footer-adr {
+    display: flex;
     font-style:normal;
 }
 
@@ -87,12 +105,20 @@ button {
     color: #404bbf;
 }
 
+.adr-list {
+    display: flex;
+    gap: 41px;
+}
+
 .contact-text {
     color: #434455; 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 0px 0;
+    display: block;
+    
 }
 
 .contact-text:hover,
