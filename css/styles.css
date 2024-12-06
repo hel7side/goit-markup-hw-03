@@ -42,6 +42,7 @@ button {
 
 /* #region Header */
 .header-page {
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-page .container {
