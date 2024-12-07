@@ -8,6 +8,20 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 h1,
 h2,
 h3,
@@ -139,6 +153,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    margin: bottom 292px;
+    margin: top 188px;
 }
 .hero-btn {
     font-weight: 500;
@@ -159,9 +175,22 @@ button {
 /* #region Our Features */
 
 .out-features-page {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .our-features-main-txt {
 }
+
+.features-list {
+    display:flex;
+    color: #434455;
+    gap: 24px;
+}
+
+.features-list-item {
+    width: 264px;
+}
+
 .out-features-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -169,6 +198,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 18px;
 }
 .out-features-text {
     font-family: "Roboto", sans-serif;
