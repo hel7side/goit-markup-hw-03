@@ -145,7 +145,14 @@ button {
 /* #region Hero */
 .hero {
     background-color: #2e2f42;
+    display: flex;
+    width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -153,8 +160,11 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    margin: bottom 292px;
-    margin: top 188px;
+    display:flex;
+    padding-top: 188px;
+    padding: bottom 292px;
+    padding-left: 472px;
+    padding-right: 472px;
 }
 .hero-btn {
     font-weight: 500;
@@ -163,6 +173,13 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
+    display: flex;
+    margin-top: 372px;
+    margin-bottom: 204px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
     
 }
 
