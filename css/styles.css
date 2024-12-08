@@ -150,6 +150,7 @@ button {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 1px solid #e7e9fc;   
 
 }
 
