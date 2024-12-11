@@ -112,7 +112,7 @@ body {
     color: #404bbf;
   }
   
-  /*   main studio   */
+  /*   #region main studio   */
   
   .studio {
     background-color: #2e2f42;
@@ -159,8 +159,8 @@ body {
   .studio-btn:focus {
     background: #404bbf;
   }
-  
-  /*   main approach   */
+  /* #endregion */
+  /*   #region main approach   */
   
   .visually-hidden {
     position: absolute;
@@ -182,8 +182,6 @@ body {
   .approach-list {
     display: flex;
     appearance: none;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
   }
   
@@ -207,8 +205,8 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
   }
-  
-  /* main contacts */
+  /* #endregion */
+  /*   #region main contacts */
   
   .contacts {
     background-color: #f4f4fd;
@@ -225,7 +223,6 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
     align-items: center;
-    padding-top: 120px;
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
@@ -235,7 +232,6 @@ body {
     display: flex;
     align-items: center;
     margin-top: 0;
-    padding-bottom: 120px;
     column-gap: 24px;
     row-gap: 48px;
     gap: 24px;
@@ -279,7 +275,8 @@ body {
     padding: 32px 0;
   }
   
-  /*  main portfolio  */
+  /* #endregion */
+  /*   #region main portfolio  */
   
   .portfolio {
     padding-top: 120px;
@@ -301,7 +298,6 @@ body {
   }
   
   .portfolio-item {
-    display: flex;
     border-bottom: 1px solid #dcdcdc;
     margin-right: 24px;
     margin-bottom: 48px;
@@ -318,7 +314,6 @@ body {
     flex-wrap: wrap;
     appearance: none;
     padding-top: 0;
-    padding-bottom: 120px;
     gap: 24 32px;
   }
   
@@ -358,8 +353,8 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
   }
-  
-  /*  footer  */
+  /*  #endregion  */
+  /*   #region footer  */
   
   .page-footer {
     background-color: #2e2f42;
@@ -391,3 +386,4 @@ body {
     color: #f4f4fd;
   }
   
+  /* #endregion */
